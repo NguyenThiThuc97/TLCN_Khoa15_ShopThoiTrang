@@ -41,7 +41,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="{{route("vHome")}}">Home</a>
 								<ul class="sub-menu">
 									<li><a href="index.html">Homepage 1</a></li>
 									<li><a href="home-02.html">Homepage 2</a></li>
@@ -50,23 +50,23 @@
 							</li>
 
 							<li>
-								<a href="product.html">Shop</a>
+								<a href="{{route("vShop")}}">Shop</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
+								<a href="{{route("vFeature")}}">Features</a>
 							</li>
 
 							<li>
-								<a href="blog.html">Blog</a>
+								<a href="{{route("vBlog")}}">Blog</a>
 							</li>
 
 							<li class="active-menu">
-								<a href="about.html">About</a>
+								<a href="{{route("vAbout")}}">About</a>
 							</li>
 
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="{{route("vContact")}}">Contact</a>
 							</li>
 						</ul>
 					</div>	

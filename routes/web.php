@@ -18,4 +18,5 @@ Route::group(['namespace'=>'Client'],function(){
     Route::get('/contact','shopController@showContact')->name('vContact');
     Route::get('/feature','shopController@showFeature')->name('vFeature');
     Route::get('/shop','shopController@showShop')->name('vShop');
+    Route::get("/productDetail", "shopController@showProductDetail")->name("vProductDetail");
 });

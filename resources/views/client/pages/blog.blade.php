@@ -1,1 +1,1 @@
-blog.blade.php
+Trang nay van dang duoc suy nghi de phat trien!!!

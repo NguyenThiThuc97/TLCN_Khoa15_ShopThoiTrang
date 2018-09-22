@@ -38,5 +38,17 @@ class shopController extends Controller
     {
         return View("client.pages.feature");
     }
+    public function showShop()
+    {
+        return View("client.pages.shop");
+    }
+    public function showProductDetail()
+    {
+        return View("client.pages.productDetail");
+    }
+    public function showShoppingCart()
+    {
+        return View("client.pages.shopingCart");
+    }
 
 }
