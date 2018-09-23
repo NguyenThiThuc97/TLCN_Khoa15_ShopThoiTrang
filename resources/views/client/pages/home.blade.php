@@ -415,9 +415,9 @@
 				</div>
 			</div>
 
-			<div class="row isotope-grid">
+			<div class="row isotope-grid showQuickView">
 				@for($i=0;$i<10;$i++)
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item ">
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">

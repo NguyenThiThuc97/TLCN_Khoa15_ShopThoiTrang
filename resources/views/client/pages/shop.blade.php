@@ -246,7 +246,7 @@
             </div>
         </div>
 
-        <div class="row isotope-grid">
+        <div class="row isotope-grid abc">
             @for($i=0;$i<15;$i++)
             <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
                 <!-- Block2 -->

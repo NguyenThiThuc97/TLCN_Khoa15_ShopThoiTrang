@@ -48,7 +48,7 @@ class shopController extends Controller
     }
     public function showShoppingCart()
     {
-        return View("client.pages.shopingCart");
+        return View("client.pages.shoppingCart");
     }
 
 }

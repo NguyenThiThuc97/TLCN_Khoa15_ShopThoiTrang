@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('client/fonts/linearicons-v1.0.0/icon-font.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('client/vendor/animate/animate.css')}}">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('client/vendor/css-hamburgers/hamburgers.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{asset('client/vendor/animsition/css/animsition.min.css')}}">
@@ -30,14 +30,14 @@
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
-	
+
 	@include("client.layouts.header")
-	
+
 	@yield("content")
-	
 
 
-	
+
+
 	<!-- Back to top -->
 	@include("client.layouts.footer")
 	<div class="btn-back-to-top" id="myBtn">
@@ -46,7 +46,7 @@
 		</span>
 	</div>
 
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<script src="{{asset('client/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
 	<script src="{{asset('client/vendor/animsition/js/animsition.min.js')}}"></script>
@@ -83,7 +83,8 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script src="client/js/main.js"></script>
+	<script type="text/javascript" src="{{asset('client/js/main.js')}}"></script>
+
 	
 </body>
 </html>
