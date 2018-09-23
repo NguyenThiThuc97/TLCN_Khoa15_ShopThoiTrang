@@ -20,4 +20,8 @@ class shopController extends Controller
     {
         return view("login");
     }
+    public function showSignUp()
+    {
+        return view("signUp");
+    }
 }

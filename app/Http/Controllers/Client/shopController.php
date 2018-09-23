@@ -22,6 +22,7 @@ class shopController extends Controller
     {
         return View("client.pages.home");
     }
+
     public function showBlog()
     {
         return View("client.pages.blog");

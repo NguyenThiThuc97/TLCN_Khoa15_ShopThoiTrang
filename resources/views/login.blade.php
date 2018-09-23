@@ -1,22 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 23-Sep-18
- * Time: 4:58 PM
- */?>
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 23-Sep-18
- * Time: 3:07 PM
- */?>
-
-        <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login V1</title>
+    <title>Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -82,7 +67,7 @@
                 </div>
 
                 <div class="text-center p-t-136">
-                    <a class="txt2" href="#">
+                    <a class="txt2" href="{{route('vSignUp')}}">
                         Create your Account
                         <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                     </a>
